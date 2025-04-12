@@ -51,7 +51,7 @@ class werhouse {
 
         vehicle = this.data.filter((vehicle) => vehicle.gate === something);
 
-        return vehicle.length >=1 ? vehicle : "Sorry, that giveen gate does not exist!";
+        return vehicle.length >=1 ? vehicle : "Sorry, the giveen gate number does not exist!, please try again";
 
     }
 }
