@@ -39,6 +39,7 @@ Future Improvements
 ## Getting Started
 
 To get started with the Vehicle Tracker App, clone this repository and follow the installation instructions.
+```bash
 git clone https://github.com/yourusername/vehicle-tracker.git
 cd vehicle-tracker
 npm install
