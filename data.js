@@ -9,6 +9,7 @@ const vehicles = [
         "coolantLevel": 22,
         "gate": 1,
         "row": 1,
+        "recovery": 0,
         "position": 1
     },
     {
@@ -19,6 +20,7 @@ const vehicles = [
         "coolantLevel": 66,
         "gate": 1,
         "row": 1,
+        "recovery": 0,
         "position": 2
     },
     {
@@ -29,6 +31,7 @@ const vehicles = [
         "coolantLevel": 93,
         "gate": 1,
         "row": 1,
+        "recovery": 0,
         "position": 3
     },
     {
@@ -39,6 +42,7 @@ const vehicles = [
         "coolantLevel": 38,
         "gate": 1,
         "row": 1,
+        "recovery": 1,
         "position": 4
     },
     {
@@ -49,6 +53,7 @@ const vehicles = [
         "coolantLevel": 77,
         "gate": 1,
         "row": 1,
+        "recovery": 1,
         "position": 5
     },
     {
@@ -59,7 +64,9 @@ const vehicles = [
         "coolantLevel": "low",
         "gate": 1,
         "row": 2,
+        "recovery": 0,
         "position": 1
+        
     },
     {
         "sn": "HGB00007",
@@ -69,6 +76,7 @@ const vehicles = [
         "coolantLevel": 74,
         "gate": 1,
         "row": 2,
+        "recovery": 0,
         "position": 2
     },
     {
@@ -79,6 +87,7 @@ const vehicles = [
         "coolantLevel": 10,
         "gate": 1,
         "row": 2,
+        "recovery": 0,
         "position": 3
     },
     {
@@ -89,6 +98,7 @@ const vehicles = [
         "coolantLevel": 8,
         "gate": 1,
         "row": 2,
+        "recovery": 0,
         "position": 4
     },
     {
@@ -99,6 +109,7 @@ const vehicles = [
         "coolantLevel": 81,
         "gate": 1,
         "row": 2,
+        "recovery": 0,
         "position": 5
     },
     {
@@ -109,6 +120,7 @@ const vehicles = [
         "coolantLevel": 95,
         "gate": 1,
         "row": 3,
+        "recovery": 0,
         "position": 1
     },
     {
@@ -119,6 +131,7 @@ const vehicles = [
         "coolantLevel": 31,
         "gate": 1,
         "row": 3,
+        "recovery": 0,
         "position": 2
     },
     {
@@ -129,6 +142,7 @@ const vehicles = [
         "coolantLevel": 51,
         "gate": 1,
         "row": 3,
+        "recovery": 0,
         "position": 3
     },
     {
@@ -139,6 +153,7 @@ const vehicles = [
         "coolantLevel": 74,
         "gate": 1,
         "row": 3,
+        "recovery": 0,
         "position": 4
     },
     {
@@ -149,6 +164,7 @@ const vehicles = [
         "coolantLevel": 95,
         "gate": 1,
         "row": 3,
+        "recovery": 1,
         "position": 5
     },
     {
@@ -159,6 +175,7 @@ const vehicles = [
         "coolantLevel": 16,
         "gate": 1,
         "row": 4,
+        "recovery": 0,
         "position": 1
     },
     {
@@ -169,6 +186,7 @@ const vehicles = [
         "coolantLevel": 11,
         "gate": 1,
         "row": 4,
+        "recovery": 0,
         "position": 2
     },
     {
@@ -179,6 +197,7 @@ const vehicles = [
         "coolantLevel": 69,
         "gate": 1,
         "row": 4,
+        "recovery": 0,
         "position": 3
     },
     {
@@ -189,6 +208,7 @@ const vehicles = [
         "coolantLevel": 47,
         "gate": 1,
         "row": 4,
+        "recovery": 0,
         "position": 4
     },
     {
@@ -199,6 +219,7 @@ const vehicles = [
         "coolantLevel": 8,
         "gate": 1,
         "row": 4,
+        "recovery": 0,
         "position": 5
     },
     {
@@ -209,6 +230,7 @@ const vehicles = [
         "coolantLevel": 0,
         "gate": 2,
         "row": 1,
+        "recovery": 0,
         "position": 1
     },
     {
@@ -219,6 +241,7 @@ const vehicles = [
         "coolantLevel": 86,
         "gate": 2,
         "row": 1,
+        "recovery": 1,
         "position": 2
     },
     {
@@ -229,6 +252,7 @@ const vehicles = [
         "coolantLevel": 43,
         "gate": 2,
         "row": 1,
+        "recovery": 0,
         "position": 3
     },
     {
@@ -239,6 +263,7 @@ const vehicles = [
         "coolantLevel": 86,
         "gate": 2,
         "row": 1,
+        "recovery": 0,
         "position": 4
     },
     {
@@ -249,6 +274,7 @@ const vehicles = [
         "coolantLevel": 38,
         "gate": 2,
         "row": 1,
+        "recovery": 0,
         "position": 5
     },
     {
@@ -259,6 +285,7 @@ const vehicles = [
         "coolantLevel": 61,
         "gate": 2,
         "row": 2,
+        "recovery": 0,
         "position": 1
     },
     {
@@ -269,6 +296,7 @@ const vehicles = [
         "coolantLevel": 77,
         "gate": 2,
         "row": 2,
+        "recovery": 1,
         "position": 2
     },
     {
@@ -279,6 +307,7 @@ const vehicles = [
         "coolantLevel": 73,
         "gate": 2,
         "row": 2,
+        "recovery": 0,
         "position": 3
     },
     {
@@ -289,6 +318,7 @@ const vehicles = [
         "coolantLevel": 13,
         "gate": 2,
         "row": 2,
+        "recovery": 0,
         "position": 4
     },
     {
@@ -299,6 +329,7 @@ const vehicles = [
         "coolantLevel": 82,
         "gate": 2,
         "row": 2,
+        "recovery": 0,
         "position": 5,
     },
     {
@@ -309,6 +340,7 @@ const vehicles = [
         "coolantLevel": 15,
         "gate": 2,
         "row": 3,
+        "recovery": 0,
         "position": 1
     },
     {
@@ -319,6 +351,7 @@ const vehicles = [
         "coolantLevel": 34,
         "gate": 2,
         "row": 3,
+        "recovery": 0,
         "position": 2
     },
     {
@@ -329,6 +362,7 @@ const vehicles = [
         "coolantLevel": 98,
         "gate": 2,
         "row": 3,
+        "recovery": 1,
         "position": 3
     },
     {
@@ -339,6 +373,7 @@ const vehicles = [
         "coolantLevel": 65,
         "gate": 2,
         "row": 3,
+        "recovery": 0,
         "position": 5
     },
     {
@@ -349,6 +384,7 @@ const vehicles = [
         "coolantLevel": 96,
         "gate": 2,
         "row": 4,
+        "recovery": 0,
         "position": 1
     },
     {
@@ -359,6 +395,7 @@ const vehicles = [
         "coolantLevel": 1,
         "gate": 2,
         "row": 4,
+        "recovery": 0,
         "position": 2
     },
     {
@@ -369,6 +406,7 @@ const vehicles = [
         "coolantLevel": 48,
         "gate": 2,
         "row": 4,
+        "recovery": 0,
         "position": 3
     },
     {
@@ -379,6 +417,7 @@ const vehicles = [
         "coolantLevel": 51,
         "gate": 2,
         "row": 4,
+        "recovery": 0,
         "position": 4
     },
     {
@@ -389,6 +428,7 @@ const vehicles = [
         "coolantLevel": 50,
         "gate": 2,
         "row": 4,
+        "recovery": 0,
         "position": 5
     },
     {
@@ -399,6 +439,7 @@ const vehicles = [
         "coolantLevel": 78,
         "gate": 3,
         "row": 1,
+        "recovery": 0,
         "position": 1
     },
     {
@@ -409,6 +450,7 @@ const vehicles = [
         "coolantLevel": 39,
         "gate": 3,
         "row": 1,
+        "recovery": 0,
         "position": 2
     },
     {
@@ -419,6 +461,7 @@ const vehicles = [
         "coolantLevel": 84,
         "gate": 3,
         "row": 1,
+        "recovery": 1,
         "position": 3
     },
     {
@@ -429,6 +472,7 @@ const vehicles = [
         "coolantLevel": 23,
         "gate": 3,
         "row": 1,
+        "recovery": 1,
         "position": 4
     },
     {
@@ -439,6 +483,7 @@ const vehicles = [
         "coolantLevel": 31,
         "gate": 3,
         "row": 1,
+        "recovery": 0,
         "position": 5
     },
     {
@@ -449,6 +494,7 @@ const vehicles = [
         "coolantLevel": 36,
         "gate": 3,
         "row": 2,
+        "recovery": 0,
         "position": 1
     },
     {
@@ -459,6 +505,7 @@ const vehicles = [
         "coolantLevel": 22,
         "gate": 3,
         "row": 2,
+        "recovery": 0,
         "position": 2
     },
     {
@@ -469,6 +516,7 @@ const vehicles = [
         "coolantLevel": 96,
         "gate": 3,
         "row": 2,
+        "recovery": 0,
         "position": 3
     },
     {
@@ -479,6 +527,7 @@ const vehicles = [
         "coolantLevel": 52,
         "gate": 3,
         "row": 2,
+        "recovery": 0,
         "position": 4
     },
     {
@@ -489,6 +538,7 @@ const vehicles = [
         "coolantLevel": 98,
         "gate": 3,
         "row": 2,
+        "recovery": 0,
         "position": 5
     },
     {
@@ -499,6 +549,7 @@ const vehicles = [
         "coolantLevel": 77,
         "gate": 3,
         "row": 3,
+        "recovery": 0,
         "position": 1
     },
     {
@@ -509,6 +560,7 @@ const vehicles = [
         "coolantLevel": 43,
         "gate": 3,
         "row": 3,
+        "recovery": 0,
         "position": 2
     },
     {
@@ -519,6 +571,7 @@ const vehicles = [
         "coolantLevel": 27,
         "gate": 3,
         "row": 3,
+        "recovery": 0,
         "position": 3
     },
     {
@@ -529,6 +582,7 @@ const vehicles = [
         "coolantLevel": 67,
         "gate": 3,
         "row": 3,
+        "recovery": 0,
         "position": 4
     },
     {
@@ -539,6 +593,7 @@ const vehicles = [
         "coolantLevel": 66,
         "gate": 3,
         "row": 3,
+        "recovery": 0,
         "position": 5
     },
     {
@@ -549,6 +604,7 @@ const vehicles = [
         "coolantLevel": 74,
         "gate": 3,
         "row": 4,
+        "recovery": 0,
         "position": 1
     },
     {
@@ -559,6 +615,7 @@ const vehicles = [
         "coolantLevel": 83,
         "gate": 3,
         "row": 4,
+        "recovery": 0,
         "position": 2
     },
     {
@@ -569,6 +626,7 @@ const vehicles = [
         "coolantLevel": 72,
         "gate": 3,
         "row": 4,
+        "recovery": 0,
         "position": 3
     },
     {
@@ -579,6 +637,7 @@ const vehicles = [
         "coolantLevel": 33,
         "gate": 3,
         "row": 4,
+        "recovery": 0,
         "position": 4
     },
     {
@@ -589,6 +648,7 @@ const vehicles = [
         "coolantLevel": 1,
         "gate": 3,
         "row": 4,
+        "recovery": 0,
         "position": 5
     },
     {
@@ -599,6 +659,7 @@ const vehicles = [
         "coolantLevel": 50,
         "gate": 4,
         "row": 1,
+        "recovery": 0,
         "position": 1
     }
 ]
