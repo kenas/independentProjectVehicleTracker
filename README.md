@@ -1,5 +1,7 @@
 # **Vehicle Tracker App**
 
+[![image.png](https://i.postimg.cc/sX18s8WC/image.png)](https://postimg.cc/phbkBsks)
+
 ## Project Overview
 
 The Vehicle Tracker App was created to solve the problem of locating vehicles by their Serial Number (SN). When dealing with a fleet of over 500 vehicles, finding a specific vehicle based on its SN was time-consuming and inefficient. The challenge became even more apparent when tasked with identifying where each vehicle was located, especially when needing to service them or monitor vehicle conditions.
