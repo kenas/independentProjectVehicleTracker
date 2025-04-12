@@ -44,3 +44,9 @@ git clone https://github.com/yourusername/vehicle-tracker.git
 cd vehicle-tracker
 npm install
 npm start
+```
+Ensure you have the necessary dependencies and a valid database connection for vehicle data.
+
+Conclusion
+
+The Vehicle Tracker App has streamlined the process of locating vehicles, monitoring their condition, and ensuring timely service. By integrating data about fuel, coolant, and other metrics, it provides a practical solution to manage a large fleet effectively.
