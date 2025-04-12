@@ -1,4 +1,4 @@
-# ** Vehicle Tracker App **
+# **Vehicle Tracker App**
 
 ## Project Overview
 
