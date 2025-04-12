@@ -32,10 +32,6 @@ Note: For safety and security reasons, the database for vehicle data is not prov
 
 Note: The data.js file included in the project is for showcase purposes only. It contains sample data to demonstrate how the app functions, but it should not be used for production purposes. You will need to replace it with your own database connection and real data for full functionality.
 
-Future Improvements
-	•	8Tune Integration: The app will soon integrate the 8Tune system for enhanced monitoring.
-	•	Expanded Data: Additional vehicle metrics and tracking features will be added.
-
 ## Getting Started
 
 To get started with the Vehicle Tracker App, clone this repository and follow the installation instructions.
