@@ -29,22 +29,20 @@ class warehouse {
 
         const {gate, row, position} = vehicle[0];
       
-       
         return this.gate = this.data.filter((vehicle) => vehicle.gate === gate);
         
     }
 
+
+    // Get all vehicles in that fuel level <= 45
     getFuealLevel = () => {
-
         let vehicle;
-
-        return vehicle = this.data.filter((vehicle) => 
-            (typeof vehicle.fuelLevel === 'number' && vehicle.fuelLevel < 45 || vehicle.fuelLevel === "low")
-        );
-
+        return vehicle = this.data.filter((vehicle) =>  
+            (typeof vehicle.fuelLevel === 'number' && vehicle.fuelLevel <= 45)
+        );  
     }
 
-    // Get all vehicles in a row that gate is = to by giveen gate by user
+    // Get all vehicles in a row that gate is === to by giveen gate by user
     getRowsByGate = () => {
         let vehicle;
 
@@ -54,11 +52,24 @@ class warehouse {
 
     }
 
-    getFuealLevel = () => {
+    //Get all vehicles that  have low coolant level low
+    getCoolantLevel = () => {
         let vehicle;
-        return vehicle = this.data.filter((vehicle) =>  
-            (typeof vehicle.fuelLevel === 'number' && vehicle.fuelLevel < 45 || vehicle.fuelLevel === "low")
-        );  
+        return vehicle = this.data.filter((vehicle) =>
+            (typeof vehicle.coolantLevel === 'string' && vehicle.coolantLevel === 'Low')
+        );
+    }
+
+    //Get all vehicles that have recovery === true
+    getRecovery = () => {
+        let vehicle;
+        return vehicle = this.data.filter((vehicle) => vehicle.recovery === 1);
+    }
+
+    //Get all vehicles that have any another issues
+    getIssues = () => {
+        let vehicle;
+        return vehicle = this.data.filter((vehicle) => vehicle.issues);
     }
 }
 
