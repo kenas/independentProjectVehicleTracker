@@ -36,8 +36,8 @@ class warehouse {
 
     // Get all vehicles in that fuel level <= 45
     getFuealLevel = () => {
-        let vehicle;
-        return vehicle = this.data.filter((vehicle) =>  
+    
+        return this.data.filter((vehicle) =>  
             (typeof vehicle.fuelLevel === 'number' && vehicle.fuelLevel <= 45)
         );  
     }
@@ -54,15 +54,13 @@ class warehouse {
 
     //Get all vehicles that  have low coolant level low
     getCoolantLevel = () => {
-        let vehicle;
-        return vehicle = this.data.filter((vehicle) =>
+        return this.data.filter((vehicle) =>
             (typeof vehicle.coolantLevel === 'string' && vehicle.coolantLevel === 'Low')
         );
     }
 
     //Get all vehicles that have recovery === true
     getRecovery = () => {
-        let vehicle;
         return vehicle = this.data.filter((vehicle) => vehicle.recovery === 1);
     }
 
