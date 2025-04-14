@@ -6,66 +6,90 @@ const vehicles = [
         "category": "TAO",
         "km": 156774,
         "fuelLevel": 59,
-        "coolantLevel": 22,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 1,
         "recovery": 0,
-        "position": 1
+        "position": 1,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "BNO00002",
         "category": "BNO",
         "km": 105622,
         "fuelLevel": 69,
-        "coolantLevel": 66,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 1,
         "recovery": 0,
-        "position": 2
+        "position": 2,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "LOP00003",
         "category": "LOP",
         "km": 25015,
         "fuelLevel": 55,
-        "coolantLevel": 93,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 1,
         "recovery": 0,
-        "position": 3
+        "position": 3,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "HGB00004",
         "category": "HGB",
         "km": 121454,
         "fuelLevel": 97,
-        "coolantLevel": 38,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 1,
         "recovery": 1,
-        "position": 4
+        "position": 4,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "LOP00005",
         "category": "LOP",
         "km": 70488,
         "fuelLevel": 70,
-        "coolantLevel": 77,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 1,
         "recovery": 1,
-        "position": 5
+        "position": 5,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "LOP00006",
         "category": "LOP",
         "km": 25186,
         "fuelLevel": 53,
-        "coolantLevel": 45,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 2,
         "recovery": 0,
-        "position": 1
+        "position": 1,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
         
     },
     {
@@ -73,594 +97,801 @@ const vehicles = [
         "category": "HGB",
         "km": 170908,
         "fuelLevel": 80,
-        "coolantLevel": 74,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 2,
         "recovery": 0,
-        "position": 2
+        "position": 2,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "HGB00008",
         "category": "HGB",
         "km": 186366,
         "fuelLevel": 30,
-        "coolantLevel": 10,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 2,
         "recovery": 0,
-        "position": 3
+        "position": 3,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAO00009",
         "category": "TAO",
         "km": 97807,
         "fuelLevel": 80,
-        "coolantLevel": 8,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 2,
         "recovery": 0,
-        "position": 4
+        "position": 4,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "LOP00010",
         "category": "LOP",
         "km": 92289,
         "fuelLevel": 90,
-        "coolantLevel": 81,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 2,
         "recovery": 0,
-        "position": 5
+        "position": 5,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "LOP00011",
         "category": "LOP",
         "km": 29744,
         "fuelLevel": 19,
-        "coolantLevel": 95,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 3,
         "recovery": 0,
-        "position": 1
+        "position": 1,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "HGB00012",
         "category": "HGB",
         "km": 185359,
         "fuelLevel": 78,
-        "coolantLevel": 31,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 3,
         "recovery": 0,
-        "position": 2
+        "position": 2,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "BNO00013",
         "category": "BNO",
         "km": 106680,
         "fuelLevel": 60,
-        "coolantLevel": 51,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 3,
         "recovery": 0,
-        "position": 3
+        "position": 3,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAO00014",
         "category": "TAO",
         "km": 65487,
         "fuelLevel": 68,
-        "coolantLevel": 74,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 3,
         "recovery": 0,
-        "position": 4
+        "position": 4,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "BNO00015",
         "category": "BNO",
         "km": 40412,
         "fuelLevel": 49,
-        "coolantLevel": 95,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 3,
         "recovery": 1,
-        "position": 5
+        "position": 5,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "HGB00016",
         "category": "HGB",
         "km": 122123,
         "fuelLevel": 58,
-        "coolantLevel": 16,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 4,
         "recovery": 0,
-        "position": 1
+        "position": 1,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAO00017",
         "category": "TAO",
         "km": 32035,
         "fuelLevel": 2,
-        "coolantLevel": 11,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 4,
         "recovery": 0,
-        "position": 2
+        "position": 2,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "HGB00018",
         "category": "HGB",
         "km": 56922,
         "fuelLevel": 77,
-        "coolantLevel": 69,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 4,
         "recovery": 0,
-        "position": 3
+        "position": 3,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "DFG00019",
         "category": "DFG",
         "km": 154486,
         "fuelLevel": 99,
-        "coolantLevel": 47,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 4,
         "recovery": 0,
-        "position": 4
+        "position": 4,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAK00020",
         "category": "TAK",
         "km": 109333,
         "fuelLevel": 1,
-        "coolantLevel": 8,
+        "coolantLevel": "OK",
         "gate": 1,
         "row": 4,
         "recovery": 0,
-        "position": 5
+        "position": 5,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "BNO00021",
         "category": "BNO",
         "km": 97731,
         "fuelLevel": 5,
-        "coolantLevel": 0,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 1,
         "recovery": 0,
-        "position": 1
+        "position": 1,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "DFG00022",
         "category": "DFG",
         "km": 105804,
         "fuelLevel": 89,
-        "coolantLevel": 86,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 1,
         "recovery": 1,
-        "position": 2
+        "position": 2,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAO00023",
         "category": "TAO",
         "km": 159533,
         "fuelLevel": 26,
-        "coolantLevel": 43,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 1,
         "recovery": 0,
-        "position": 3
+        "position": 3,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "DFG00024",
         "category": "DFG",
         "km": 93206,
         "fuelLevel": 46,
-        "coolantLevel": 86,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 1,
         "recovery": 0,
-        "position": 4
+        "position": 4,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "DFG00025",
         "category": "DFG",
         "km": 51959,
         "fuelLevel": 37,
-        "coolantLevel": 38,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 1,
         "recovery": 0,
-        "position": 5
+        "position": 5,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "BNO00026",
         "category": "BNO",
         "km": 38131,
         "fuelLevel": 23,
-        "coolantLevel": 61,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 2,
         "recovery": 0,
-        "position": 1
+        "position": 1,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "DFG00027",
         "category": "DFG",
         "km": 136023,
         "fuelLevel": 23,
-        "coolantLevel": 77,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 2,
         "recovery": 1,
-        "position": 2
+        "position": 2,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "DFG00028",
         "category": "DFG",
         "km": 35643,
         "fuelLevel": 40,
-        "coolantLevel": 73,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 2,
         "recovery": 0,
-        "position": 3
+        "position": 3,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAO00029",
         "category": "TAO",
         "km": 89044,
         "fuelLevel": 88,
-        "coolantLevel": 13,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 2,
         "recovery": 0,
-        "position": 4
+        "position": 4,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAO00030",
         "category": "TAO",
         "km": 122079,
         "fuelLevel": 91,
-        "coolantLevel": 82,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 2,
         "recovery": 0,
         "position": 5,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        },
     },
     {
         "sn": "DFG00031",
         "category": "DFG",
         "km": 142694,
         "fuelLevel": 90,
-        "coolantLevel": 15,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 3,
         "recovery": 0,
-        "position": 1
+        "position": 1,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "HGB00032",
         "category": "HGB",
         "km": 141948,
         "fuelLevel": 39,
-        "coolantLevel": 34,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 3,
         "recovery": 0,
-        "position": 2
+        "position": 2,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "DFG00033",
         "category": "DFG",
         "km": 164307,
         "fuelLevel": 87,
-        "coolantLevel": 98,
+        "coolantLevel": "Low",
         "gate": 2,
         "row": 3,
         "recovery": 1,
-        "position": 3
+        "position": 3,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "BNO00034",
         "category": "BNO",
         "km": 132967,
         "fuelLevel": 15,
-        "coolantLevel": 65,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 3,
         "recovery": 0,
-        "position": 5
+        "position": 5,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        },
+        
     },
     {
         "sn": "TAK00035",
         "category": "TAK",
         "km": 171610,
         "fuelLevel": 49,
-        "coolantLevel": 96,
+        "coolantLevel": "Low",
         "gate": 2,
         "row": 4,
         "recovery": 0,
-        "position": 1
+        "position": 1,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAK00036",
         "category": "TAK",
         "km": 163443,
         "fuelLevel": 15,
-        "coolantLevel": 1,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 4,
         "recovery": 0,
-        "position": 2
+        "position": 2,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "BNO00037",
         "category": "BNO",
         "km": 56534,
         "fuelLevel": 57,
-        "coolantLevel": 48,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 4,
         "recovery": 0,
-        "position": 3
+        "position": 3,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAK00038",
         "category": "TAK",
         "km": 73317,
         "fuelLevel": 71,
-        "coolantLevel": 51,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 4,
         "recovery": 0,
-        "position": 4
+        "position": 4,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "BNO00039",
         "category": "BNO",
         "km": 198127,
         "fuelLevel": 87,
-        "coolantLevel": 50,
+        "coolantLevel": "OK",
         "gate": 2,
         "row": 4,
         "recovery": 0,
-        "position": 5
+        "position": 5,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAK00040",
         "category": "TAK",
         "km": 58576,
         "fuelLevel": 44,
-        "coolantLevel": 78,
+        "coolantLevel": "Low",
         "gate": 3,
         "row": 1,
         "recovery": 0,
-        "position": 1
+        "position": 1,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAK00041",
         "category": "TAK",
         "km": 70967,
         "fuelLevel": 60,
-        "coolantLevel": 39,
+        "coolantLevel": "Low",
         "gate": 3,
         "row": 1,
         "recovery": 0,
-        "position": 2
+        "position": 2,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "LOP00042",
         "category": "LOP",
         "km": 105152,
         "fuelLevel": 54,
-        "coolantLevel": 84,
+        "coolantLevel": "Low",
         "gate": 3,
         "row": 1,
         "recovery": 1,
-        "position": 3
+        "position": 3,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "HGB00043",
         "category": "HGB",
         "km": 72899,
         "fuelLevel": 57,
-        "coolantLevel": 23,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 1,
         "recovery": 1,
-        "position": 4
+        "position": 4,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAK00044",
         "category": "TAK",
         "km": 46390,
         "fuelLevel": 92,
-        "coolantLevel": 31,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 1,
         "recovery": 0,
-        "position": 5
+        "position": 5,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "DFG00045",
         "category": "DFG",
         "km": 27547,
         "fuelLevel": 89,
-        "coolantLevel": 36,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 2,
         "recovery": 0,
-        "position": 1
+        "position": 1,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "BNO00046",
         "category": "BNO",
         "km": 45035,
         "fuelLevel": 94,
-        "coolantLevel": 22,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 2,
         "recovery": 0,
-        "position": 2
+        "position": 2,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "DFG00047",
         "category": "DFG",
         "km": 135083,
         "fuelLevel": 29,
-        "coolantLevel": 96,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 2,
         "recovery": 0,
-        "position": 3
+        "position": 3,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "BNO00048",
         "category": "BNO",
         "km": 156432,
         "fuelLevel": 51,
-        "coolantLevel": 52,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 2,
         "recovery": 0,
-        "position": 4
+        "position": 4,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "HGB00049",
         "category": "HGB",
         "km": 181102,
         "fuelLevel": 79,
-        "coolantLevel": 98,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 2,
         "recovery": 0,
-        "position": 5
+        "position": 5,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAO00050",
         "category": "TAO",
         "km": 144558,
         "fuelLevel": 91,
-        "coolantLevel": 77,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 3,
         "recovery": 0,
-        "position": 1
+        "position": 1,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "BNO00051",
         "category": "BNO",
         "km": 107911,
         "fuelLevel": 64,
-        "coolantLevel": 43,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 3,
         "recovery": 0,
-        "position": 2
+        "position": 2,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAO00052",
         "category": "TAO",
         "km": 61555,
         "fuelLevel": 36,
-        "coolantLevel": 27,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 3,
         "recovery": 0,
-        "position": 3
+        "position": 3,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAO00053",
         "category": "TAO",
         "km": 197830,
         "fuelLevel": 20,
-        "coolantLevel": 67,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 3,
         "recovery": 0,
-        "position": 4
+        "position": 4,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "HGB00054",
         "category": "HGB",
         "km": 108291,
         "fuelLevel": 8,
-        "coolantLevel": 66,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 3,
         "recovery": 0,
-        "position": 5
+        "position": 5,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAO00055",
         "category": "TAO",
         "km": 114910,
         "fuelLevel": 17,
-        "coolantLevel": 74,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 4,
         "recovery": 0,
-        "position": 1
+        "position": 1,
+        "issues": {
+            "hpg": 1,
+            "tyre": "Front right tyre flat"
+        }
     },
     {
         "sn": "TAK00056",
         "category": "TAK",
         "km": 153109,
         "fuelLevel": 59,
-        "coolantLevel": 83,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 4,
         "recovery": 0,
-        "position": 2
+        "position": 2,
+        "issues": {
+        }
     },
     {
         "sn": "HGB00057",
         "category": "HGB",
         "km": 57546,
         "fuelLevel": 85,
-        "coolantLevel": 72,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 4,
         "recovery": 0,
-        "position": 3
+        "position": 3,
+        "issues": {
+        }
     },
     {
         "sn": "TAO00058",
         "category": "TAO",
         "km": 190184,
         "fuelLevel": 0,
-        "coolantLevel": 33,
+        "coolantLevel": "OK",
         "gate": 3,
         "row": 4,
         "recovery": 0,
-        "position": 4
+        "position": 4,
+        "issues": {
+        }
     },
     {
         "sn": "LOP00059",
         "category": "LOP",
         "km": 193607,
         "fuelLevel": 70,
-        "coolantLevel": 1,
+        "coolantLevel": "Low",
         "gate": 3,
         "row": 4,
         "recovery": 0,
-        "position": 5
+        "position": 5,
+        "issues": {
+        }
     },
     {
         "sn": "TAK00060",
         "category": "TAK",
         "km": 95013,
         "fuelLevel": 74,
-        "coolantLevel": 50,
+        "coolantLevel": "Low",
         "gate": 4,
         "row": 1,
         "recovery": 0,
-        "position": 1
+        "position": 1,
+        "issues": {
+        }
     }
 ]
 export default vehicles;
