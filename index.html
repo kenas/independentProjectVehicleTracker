@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Vehicles Traker</title>
 </head>
 <body>
-    <h2>PARKING PLAN AND TRACKER, Wherehouse 18</h2>
-    <h3>Enter the vehicle SN to track</h3>
-    <input type="text" id="vehicleID" placeholder="Enter Vehicle ID">
+    <div class="container">
+        <h2>GParking <span>PLAN</span> <img src="./img/car.png" alt="Ican of the app" width="40"></h2>
+        <input type="number" name="sn" id="vehicleID" placeholder="Search by SN ...">
+        
+        <section class="filters">
+            <h3>Filters</h3>
+            <button>Building 18</button>
+            <button>Fuel</button>
+            <button>Coolent</button>
+            <button>Cecovery</button>
+        </section>
+
+        <section class="plan">
+            <div class="gates1">gates</div>
+                <section id="vehicle-list">
+                    <div class="vehicle">
+                        785 456
+                    </div>
+                    <div class="vehicle">
+                        908 673
+                    </div>
+                    <div class="vehicle">
+                        345 764
+                    </div>
+                    <div class="vehicle">
+                        345 686
+                    </div>
+
+                    <div class="vehicle">
+                        785 456
+                    </div>
+                    <div class="vehicle">
+                        908 673
+                    </div>
+                    <div class="vehicle">
+                        345 764
+                    </div>
+                    <div class="vehicle">
+                        345 686
+                    </div>
+                    
+                </section>  
+            <div class="gates2">gates</div>
+        </section>
+
+    </div>
+    <script type="module" src="js/index.js"></script>
 </body>
 </html>
