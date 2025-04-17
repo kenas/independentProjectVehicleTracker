@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --accentColor: hsl(359, 47%, 51%);
+    --fonts: hsla(0, 0%, 19%);
+    --vehicles: hsl(0, 0%, 85%);
+    --darkGreen: hsl(132, 29%, 31%);
+    --backgroundColor: hsl(78, 51%, 56%);
+}
+
+body {
+    background-color: var(--backgroundColor);
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.container h2 {
+    color: var(--fonts);
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.container h2 span {
+    color: var(--darkGreen);
+    padding: 0.5rem;
+}
+
+.container input {
+    width: 100%;
+   padding: 1.5rem;
+   border-radius: 0.821rem;
+   -webkit-border-radius: 0.821rem;
+   -moz-border-radius: 0.821rem;
+   -ms-border-radius: 0.821rem;
+   -o-border-radius: 0.821rem;
+   border: none;
+   outline: none;
+   font-size: 1.2rem;
+}
+
+section.filters h3 {
+    margin: 1rem 0;
+}
+
+section.filters button,
+section.filters button:active {
+    padding: 1rem;
+    border-radius: 0.8125rem;
+    -webkit-border-radius: 0.8125rem;
+    -moz-border-radius: 0.8125rem;
+    -ms-border-radius: 0.8125rem;
+    -o-border-radius: 0.8125rem;
+    background-color: var(--backgroundColor);
+    border: 1px solid var(--fonts);
+    transition: background-color 0.3s ease;
+}
+section.filters button:hover {
+    background-color: var(--accentColor);
+    color: white;
+    border: none;
+}
+
+section.plan {
+    margin-top: 2rem;
+    display: grid;
+    /* grid-template-columns: 30px 700px 30px;
+    grid-template-rows: 1fr; */
+
+    grid-template-columns: 100px 1fr 100px;
+    grid-auto-rows: auto;
+    grid-template-areas:
+    "gates1 vehicles gates2";
+    gap: 1rem;
+    align-items: center;
+}
+
+section.plan div.gates1 {
+        grid-area: gates1;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        color: var(--darkGreen);
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+} 
+
+section.plan div.gates2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: center;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: var(--darkGreen);
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+#vehicle-list {
+    grid-area: vehicles;
+    display: flex;
+    justify-self: center;
+}
+
+#vehicle-list div.vehicle {
+    background-color: var(--vehicles);
+    padding: 2rem;
+    margin: 0rem 0.5rem;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
