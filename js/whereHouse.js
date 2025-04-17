@@ -5,6 +5,7 @@ class warehouse {
         this.gate = '';
         this.row = '';
         this.sn;
+        this.category = [];
     }
 
     search = (sn) => {
@@ -18,6 +19,7 @@ class warehouse {
         this.gate = result[0].gate;
 
         this.getRowsByGate();
+
        // return result.length > 0 ? result : "Sorry";
     }
 
@@ -28,6 +30,7 @@ class warehouse {
         vehicle = this.data.filter((num => num.sn === sn));
 
         const {gate, row, position} = vehicle[0];
+
       
         return this.gate = this.data.filter((vehicle) => vehicle.gate === gate);
         
@@ -66,9 +69,30 @@ class warehouse {
 
     //Get all vehicles that have any another issues
     getIssues = () => {
-        let vehicle;
-        return vehicle = this.data.filter((vehicle) => vehicle.issues);
+        return this.data.filter((vehicle) => vehicle.issues);
     }
+
+    getAllUIC = () => {
+        return this.category = this.data.map(c => c.category);
+    }
+
+    //Get all vehicles by category 
+    getVehiclesByCatgotyUIC = () => {
+
+        let vehicles = this.data;
+
+        vehicles.reduce((acc, vehicle) => {
+            const cat = vehicle.category;
+
+        if(!acc[cat]) {
+            acc[cat] = [];
+        } 
+            acc[cat].push(vehicle);
+            return acc;
+      }, {}) 
+      
+    }
+
 }
 
 export default warehouse;
